@@ -10,7 +10,6 @@ public class Coche {
         this.tiempoDeVuelta = new Reloj(horas, minutos, segundos);
     }
 
-    @Override
     public String toString() {
         return "Coche: " + nombre + ", Tiempo de vuelta: " + tiempoDeVuelta;
     }

@@ -56,7 +56,7 @@ public class Reloj {
     }
 
     // Hemos puesto "Override" para anular el método de una superclase.
-    @Override
+
     public String toString() {
         return String.format("%02d:%02d:%02d", horas, minutos, segundos);
     }
